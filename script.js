@@ -25,7 +25,7 @@ const i18n = {
   en: {
     brand: "SUFS Institute for Quantum Computing Frontier Challenges",
     menuVision: "Vision", menuFocus: "Focus", menuNews: "News", menuPeople: "People", menuResource: "Resource", menuContact: "Contact",
-    heroTitle: "We challenge grand problems and drive the <span class='accent'>Quantum Leap</span>",
+    heroTitle: "We challenge practical grand problems and drive the <span class='accent'>Quantum Leap</span> in the transitioning era from NISQ to FTQC.",
     heroSubtitle: "We aim to create real impact for society <br class='br-md' />through research spanning science, engineering, and data.",
     ctaVision: "See Our Vision", ctaContact: "Collaborate",
     visionTitle: "Vision",
