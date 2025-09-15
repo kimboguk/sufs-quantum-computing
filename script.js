@@ -18,7 +18,7 @@ const i18n = {
     newsTitle: "소식", newsEmpty: "아직 등록된 소식이 없습니다. 곧 업데이트됩니다.",
     peopleTitle: "구성원", peopleEmpty: "구성원 정보가 준비 중입니다.",
 	resourceTitle: "자료실", resourceEmpty: "자료실 정보가 준비 중입니다.",
-    contactTitle: "문의", contactInfo: "공동연구 및 산학협력 문의: <a href='mailto:info@sufs.ac.kr'>info@sufs.ac.kr</a>",
+    contactTitle: "문의", contactInfo: "공동연구 및 산학협력 문의: <a href='mailto:bgkim@sufs.ac.kr'>bgkim@sufs.ac.kr</a>",
     formName: "성함", formEmail: "이메일", formMessage: "내용", formSend: "보내기",
     rights: "All rights reserved."
   },
@@ -41,7 +41,7 @@ const i18n = {
     newsTitle: "News", newsEmpty: "No news published yet. Updates coming soon.",
     peopleTitle: "People", peopleEmpty: "People information is in preparation.",
 	resourceTitle: "Resource", resourceEmpty: "Resource information is in preparation.",
-    contactTitle: "Contact", contactInfo: "For collaboration inquiries: <a href='mailto:info@sufs.ac.kr'>info@sufs.ac.kr</a>",
+    contactTitle: "Contact", contactInfo: "For collaboration inquiries: <a href='mailto:bgkim@sufs.ac.kr'>bgkim@sufs.ac.kr</a>",
     formName: "Name", formEmail: "Email", formMessage: "Message", formSend: "Send",
     rights: "All rights reserved."
   }
