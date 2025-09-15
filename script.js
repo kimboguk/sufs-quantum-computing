@@ -2,7 +2,7 @@ const i18n = {
   ko: {
     brand: "서울외국어대학원대학교 양자컴퓨팅난제연구소",
     menuVision: "비전", menuFocus: "연구분야", menuNews: "소식", menuPeople: "구성원", menuResource: "자료실", menuContact: "문의",
-    heroTitle: "난제에 도전하고, <span class='accent'>양자 도약</span>을 이끕니다",
+    heroTitle: "실용적 난제에 도전하고, NISQ에서 FTQC로 전환되는 시대에서 <span class='accent'>양자 도약</span>을 이끕니다",
     heroSubtitle: "우리는 과학·공학·데이터의 경계를 넘나드는 연구를 통하여 <br class='br-md' />사회에 실질적인 임팩트를 만드는 것을 목표로 합니다.",
     ctaVision: "연구소 비전 보기", ctaContact: "협력 제안",
     visionTitle: "비전",
