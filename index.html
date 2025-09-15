@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SUFS Institute for Quantum Computing Frontier Challenges</title>
+  <meta name="description" content="연구소 비전과 핵심 방향을 소개하는 간단한 랜딩 페이지" />
+  <meta property="og:title" content="SUFS Institute for Quantum Computing Frontier Challenges" />
+  <meta property="og:description" content="미해결 난제에 도전하는 프런티어 연구소" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧪</text></svg>">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a href="#content" class="skip-link">본문으로 건너뛰기</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="brand" aria-label="홈으로 이동">
+        <span class="brand-mark">QL</span>
+        <span class="brand-name" data-i18n="brand">SUFS Institute for Quantum Computing Frontier Challenges</span>
+      </a>
+
+      <nav class="nav" aria-label="주요 메뉴">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="navMenu" aria-label="메뉴 열기/닫기">
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </button>
+        <ul id="navMenu" class="nav-list">
+          <li><a href="#vision" data-i18n="menuVision">비전</a></li>
+          <li><a href="#focus" data-i18n="menuFocus">연구분야</a></li>
+          <li><a href="#news" data-i18n="menuNews">소식</a></li>
+          <li><a href="#people" data-i18n="menuPeople">구성원</a></li>
+		<li><a href="#resource" data-i18n="menuResource">자료실</a></li>
+          <li><a href="#contact" data-i18n="menuContact">문의</a></li>
+          <li><button id="langToggle" class="theme-toggle" title="Language">🌐</button></li>
+          <li><button id="themeToggle" class="theme-toggle" title="테마 전환">🌓</button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content">
+    <!-- Hero -->
+    <section class="hero" role="banner">
+      <div class="container hero-inner">
+        <h1 class="hero-title" data-i18n="heroTitle">난제에 도전하고, <span class="accent">양자 도약</span>을 이끕니다</h1>
+        <p class="hero-subtitle" data-i18n="heroSubtitle">
+          우리는 과학·공학·데이터의 경계를 넘나드는 연구를 통하여 <br class='br-md' />사회에 실질적인 임팩트를 만드는 것을 목표로 합니다.
+        </p>
+        <div class="hero-cta">
+          <a href="#vision" class="btn btn-primary" data-i18n="ctaVision">연구소 비전 보기</a>
+          <a href="#contact" class="btn btn-ghost" data-i18n="ctaContact">협력 제안</a>
+        </div>
+      </div>
+      <div class="hero-bg" aria-hidden="true">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="grid"></div>
+      </div>
+    </section>
+
+    <!-- Vision -->
+    <section id="vision" class="section">
+      <div class="container">
+        <h2 class="section-title" data-i18n="visionTitle">비전</h2>
+        <p class="lead" data-i18n="visionText">
+          “우리는 <strong>근본 원리 탐구</strong>와 <strong>현실 문제 해결</strong>을 동시에 추구하며, <br class='br-md' />
+          재현 가능한 방법과 개방형 협업으로 학문과 산업의 <strong>프런티어</strong>를 확장한다.”
+        </p>
+        <ul class="pill-list">
+          <li data-i18n="visionP1">과학적 엄밀성과 실용적 가치의 동시 달성</li>
+          <li data-i18n="visionP2">데이터·알고리즘·시스템 관점의 통합</li>
+          <li data-i18n="visionP3">개방형 소통과 윤리적 책임</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Focus Areas -->
+    <section id="focus" class="section section-muted">
+      <div class="container">
+        <h2 class="section-title" data-i18n="focusTitle">핵심 연구분야</h2>
+        <div class="card-grid">
+          <article class="card">
+            <h3 class="card-title" data-i18n="focus1Title">양자·고성능 계산</h3>
+            <p class="card-body" data-i18n="focus1Body">양자 알고리즘, 변분 최적화, 대규모 시뮬레이션—기초와 응용을 잇는 계산 프레임워크.</p>
+          </article>
+          <article class="card">
+            <h3 class="card-title" data-i18n="focus2Title">데이터·AI 시스템</h3>
+            <p class="card-body" data-i18n="focus2Body">신뢰 가능한 생성형 AI, 자율 에이전트, 설명 가능한 모델과 운영 자동화.</p>
+          </article>
+          <article class="card">
+            <h3 class="card-title" data-i18n="focus3Title">금융·리스크 과학</h3>
+            <p class="card-body" data-i18n="focus3Body">포트폴리오 최적화, 시계열·미시구조 분석, 알고리즘 트레이딩 연구.</p>
+          </article>
+          <article class="card">
+            <h3 class="card-title" data-i18n="focus4Title">산학 공동 연구</h3>
+            <p class="card-body" data-i18n="focus4Body">현장의 난제를 정의하고 솔루션을 공동 설계·실증하는 리빙랩 방식의 협력.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- News -->
+    <section id="news" class="section">
+      <div class="container">
+        <h2 class="section-title" data-i18n="newsTitle">소식</h2>
+        <div class="empty">
+          <p data-i18n="newsEmpty">아직 등록된 소식이 없습니다. 곧 업데이트됩니다.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- People -->
+    <section id="people" class="section section-muted">
+      <div class="container">
+        <h2 class="section-title" data-i18n="peopleTitle">구성원</h2>
+        <div class="empty">
+          <p data-i18n="peopleEmpty">구성원 정보가 준비 중입니다.</p>
+        </div>
+      </div>
+    </section>
+
+	<!-- Resource -->
+    <section id="resource" class="section section-muted">
+      <div class="container">
+        <h2 class="section-title" data-i18n="resourceTitle">자료실</h2>
+        <div class="empty">
+          <p data-i18n="resourceEmpty">자료실 정보가 준비 중입니다.</p>
+        </div>
+      </div>
+    </section>
+	
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title" data-i18n="contactTitle">문의</h2>
+        <div class="contact">
+          <p data-i18n="contactInfo">공동연구 및 산학협력 문의: <a href="mailto:info@sufs.ac.kr">info@sufs.ac.kr</a></p>
+          <form class="contact-form" onsubmit="return false;" aria-label="간단 문의 양식 (데모)">
+            <label>
+              <span data-i18n="formName">성함</span>
+              <input type="text" name="name" placeholder="홍길동" required />
+            </label>
+            <label>
+              <span data-i18n="formEmail">이메일</span>
+              <input type="email" name="email" placeholder="info@sufs.ac.kr" required />
+            </label>
+            <label>
+              <span data-i18n="formMessage">내용</span>
+              <textarea name="message" rows="4" placeholder="문의 내용을 입력해 주세요" required></textarea>
+            </label>
+            <button class="btn btn-primary" id="sendBtn" data-i18n="formSend">보내기</button>
+            <p id="formNote" class="form-note" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <small>© <span id="year"></span> <span data-i18n="brand">Quantum Leap Research Center</span> · <span data-i18n="rights">All rights reserved.</span></small>
+      <a href="#top" class="back-to-top" aria-label="맨 위로">↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
